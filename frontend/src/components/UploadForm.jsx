@@ -73,7 +73,7 @@ function UploadForm({ setScore, setFeedback, setLoading, setError }) {
         {/* File Upload */}
         <div>
           <label className="block text-lg font-semibold text-gray-700 mb-2">
-            📄 Upload Resume (PDF)
+            📄 Upload Resume (PDF File name should be "resumeText")
           </label>
           <input
             type="file"
