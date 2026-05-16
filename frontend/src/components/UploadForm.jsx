@@ -31,7 +31,7 @@ function UploadForm({ setScore, setFeedback, setLoading, setError }) {
       formData.append('jobDescription', jobDescription);
 
       const response = await axios.post(
-        'https://ai-resume-screener-b.onrender.com',
+        'https://ai-resume-screener-b.onrender.com/api/analyze',
         formData,
         {
           headers: {
