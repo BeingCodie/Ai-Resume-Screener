@@ -31,7 +31,6 @@ cd backend
 npm install
 Create a .env file (copy from .env.example):
 
-text
 GEMINI_API_KEY=your_api_key_here
 PORT=5000
 Start backend:
